@@ -8,17 +8,17 @@ def average(d,n):
     avg = d/n
     return avg
 
-def running_average(numbers):
+def running_average(perm):
     avgs = []
     total = 0
-    for i, num in enumerate(numbers):
+    for i, num in enumerate(perm):
         total += num
         current_avg = average(total, i+1)
         avgs.append(current_avg)
     return avgs
 
-def highest_running_average(numbers):
-    averages = running_average(numbers)
+def highest_running_average(perm):
+    averages = running_average(perm)
     return max(averages)
 
 def generate_permeabilities(n):
