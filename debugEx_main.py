@@ -3,7 +3,7 @@ import random
 # import a function 'lowest_running_average' from folder 
 # 'func_folder' and 'file debug_function.py'
 from func_folder.debug_function import lowest_running_average
-#from MyClass_folder.PrintInput_file import PrintInput
+# from MyClass_folder.PrintInput_file import PrintInput
 from MyClass_folder import PrintClass
 
 
